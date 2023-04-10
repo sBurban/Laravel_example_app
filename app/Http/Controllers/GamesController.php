@@ -51,7 +51,7 @@ class GamesController extends Controller
         //     return "Bienvenido a la pagina del juego:" .$name_game;
     }
 
-    public function storeVideogame(storeVideogame $request){
+    public function storeVideogame(StoreVideogame $request){
 
     // public function storeVideogame(Request $request){
     //     $request->validate([
